@@ -1,76 +1,90 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DTO
 {
-  class Leitor
-  {
-    const int tamanhoNome     =  50,
-              tamanhoTelefone =  20,
-              tamanhoEmail    =  50,
-              tamanhoEndereco = 100;
-
-    int idLeitor;
-    string nomeLeitor,
-           telefoneLeitor,
-           emailLeitor,
-           enderecoLeitor;
-
-    public Leitor(int idLeitor, string nomeLeitor, 
-      string telefoneLeitor, string emailLeitor, 
-      string enderecoLeitor)
+    public class Leitor
     {
-      IdLeitor       = idLeitor;
-      NomeLeitor     = nomeLeitor;
-      TelefoneLeitor = telefoneLeitor;
-      EmailLeitor    = emailLeitor;
-      EnderecoLeitor = enderecoLeitor;
-    }
+        int idLeitor;
+        string nomeLeitor,
+               telefoneLeitor,
+               emailLeitor,
+               enderecoLeitor;
 
-    public int IdLeitor 
-    { 
-      get => idLeitor;
-      set
-      {
-        if (value <= 0)
-          throw new Exception("Id de livro deve ser maior que 0.");
-        idLeitor = value;
-      }
+        public const int tamanhoNome = 50,
+                         tamanhoTelefone = 20,
+                         tamanhoEmail = 50,
+                         tamanhoEndereco = 100;
+
+        public Leitor(int idLeitor, string nomeLeitor, string telefoneLeitor, string emailLeitor, string enderecoLeitor)
+        {
+            IdLeitor = idLeitor;
+            NomeLeitor = nomeLeitor;
+            TelefoneLeitor = telefoneLeitor;
+            EmailLeitor = emailLeitor;
+            EnderecoLeitor = enderecoLeitor;
+        }
+
+        public int IdLeitor
+        {
+            get => idLeitor;
+            set
+            {
+                if (value < 0)
+                    throw new Exception("Id negativo é inválido!");
+                idLeitor = value;
+            }
+        }
+
+        public string NomeLeitor
+        {
+            get => nomeLeitor;
+            set
+            {
+                if (value.Length > tamanhoNome)
+                    value = value.Remove(tamanhoNome);
+                        
+                value = value.PadRight(tamanhoNome, ' ');
+                nomeLeitor = value;
+            }
+        }
+
+        public string TelefoneLeitor
+        {
+            get => telefoneLeitor;
+            set
+            {
+                if (value.Length > tamanhoTelefone)
+                    value = value.Remove(tamanhoTelefone);
+                
+                value = value.PadRight(tamanhoTelefone, ' ');
+                telefoneLeitor = value;
+            }
+        }
+
+        public string EmailLeitor
+        {
+            get => emailLeitor;
+            set
+            {
+                if (value.Length > tamanhoEmail)
+                    value = value.Remove(tamanhoEmail);
+                
+                value = value.PadRight(tamanhoEmail, ' ');
+                emailLeitor = value;
+            }
+        }
+
+        public string EnderecoLeitor
+        {
+            get => enderecoLeitor;
+            set
+            {
+                if (value.Length > tamanhoEndereco)
+                    value = value.Remove(tamanhoEndereco);
+                
+                value = value.PadRight(tamanhoEndereco, ' ');
+                enderecoLeitor = value;
+            }
+        }
     }
-    public string NomeLeitor 
-    { 
-      get => nomeLeitor;
-      set 
-      { 
-        nomeLeitor = value.Remove(tamanhoNome).PadRight(tamanhoNome,' '); 
-      }
-    }
-    public string TelefoneLeitor 
-    { 
-      get => telefoneLeitor;
-      set
-      {
-        telefoneLeitor = value.Remove(tamanhoTelefone).PadRight(tamanhoTelefone, ' ');
-      }
-    }
-    public string EmailLeitor 
-    { 
-      get => emailLeitor;
-      set
-      {
-        emailLeitor = value.Remove(tamanhoEmail).PadRight(tamanhoEmail, ' ');
-      }
-    }
-    public string EnderecoLeitor 
-    { 
-      get => enderecoLeitor;
-      set
-      {
-        enderecoLeitor = value.Remove(tamanhoEndereco).PadRight(tamanhoEndereco, ' ');
-      }
-    }
-  }
 }

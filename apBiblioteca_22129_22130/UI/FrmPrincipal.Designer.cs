@@ -1,6 +1,6 @@
 ﻿namespace apBiblioteca_22129_22130.UI
 {
-    partial class FrmPrincipal
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -77,7 +77,7 @@
             // 
             this.livrosToolStripMenuItem.Name = "livrosToolStripMenuItem";
             this.livrosToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
-            this.livrosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.livrosToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.livrosToolStripMenuItem.Text = "Livros";
             this.livrosToolStripMenuItem.Click += new System.EventHandler(this.livrosToolStripMenuItem_Click);
             // 
@@ -85,20 +85,20 @@
             // 
             this.leitoresToolStripMenuItem.Name = "leitoresToolStripMenuItem";
             this.leitoresToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-            this.leitoresToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.leitoresToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.leitoresToolStripMenuItem.Text = "Leitores";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(221, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(193, 6);
             // 
             // sairToolStripMenuItem1
             // 
             this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
-            this.sairToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
+            this.sairToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt)
             | System.Windows.Forms.Keys.S)));
-            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(196, 26);
             this.sairToolStripMenuItem1.Text = "Sair";
             // 
             // operaçõesToolStripMenuItem
@@ -129,9 +129,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(17, 34);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(325, 267);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
@@ -140,7 +140,7 @@
             // txtSenha
             // 
             this.txtSenha.Location = new System.Drawing.Point(141, 108);
-            this.txtSenha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSenha.Margin = new System.Windows.Forms.Padding(4);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(175, 22);
             this.txtSenha.TabIndex = 5;
@@ -148,7 +148,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Location = new System.Drawing.Point(141, 64);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(175, 22);
             this.txtUsuario.TabIndex = 4;
@@ -156,7 +156,7 @@
             // txtBanco
             // 
             this.txtBanco.Location = new System.Drawing.Point(141, 25);
-            this.txtBanco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBanco.Margin = new System.Windows.Forms.Padding(4);
             this.txtBanco.Name = "txtBanco";
             this.txtBanco.Size = new System.Drawing.Size(175, 22);
             this.txtBanco.TabIndex = 3;
@@ -199,7 +199,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip);
             this.MainMenuStrip = this.menuStrip;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmPrincipal";
             this.Text = "Sistema de Biblioteca";
             this.menuStrip.ResumeLayout(false);

@@ -1,30 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\",
+  "WorkspaceRootPath": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\ui\\frmleitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmleitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\ui\\frmlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\ui\\frmoperacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmoperacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmoperacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\downloads\\apbiblioteca\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\ui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmleitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmleitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\ui\\frmlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\dto\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:dto\\livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\dto\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:dto\\emprestimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\dto\\leitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:dto\\leitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\dal\\livrodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:dal\\livrodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\dal\\emprestimodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:dal\\emprestimodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\dal\\leitordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:dal\\leitordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\bll\\livrobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:bll\\livrobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\bll\\leitorbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:bll\\leitorbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmleitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmleitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmoperacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmoperacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\bll\\emprestimobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:bll\\emprestimobll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmlivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmleitor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmleitor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmrelatorios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmrelatorios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|c:\\users\\felip\\onedrive\\documentos\\github\\apbiblioteca\\apbiblioteca_22129_22130\\ui\\frmrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B29B547-E374-413B-80D4-AEA644401631}|apBiblioteca_22129_22130.csproj|solutionrelative:ui\\frmrelatorios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,75 +127,282 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "FrmLivro.cs",
-              "DocumentMoniker": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLivro.cs",
-              "RelativeDocumentMoniker": "UI\\FrmLivro.cs",
-              "ToolTip": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLivro.cs",
-              "RelativeToolTip": "UI\\FrmLivro.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwF8AAAAQAAAA",
+              "Title": "Livro.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\DTO\\Livro.cs",
+              "RelativeDocumentMoniker": "DTO\\Livro.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\DTO\\Livro.cs",
+              "RelativeToolTip": "DTO\\Livro.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T12:04:49.641Z",
+              "WhenOpened": "2024-06-13T15:17:31.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmOperacoes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmOperacoes.cs",
-              "RelativeDocumentMoniker": "UI\\FrmOperacoes.cs",
-              "ToolTip": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmOperacoes.cs [Design]",
-              "RelativeToolTip": "UI\\FrmOperacoes.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T12:11:48.364Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "FrmLeitor.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLeitor.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLeitor.cs",
               "RelativeDocumentMoniker": "UI\\FrmLeitor.cs",
-              "ToolTip": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLeitor.cs [Design]",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLeitor.cs [Design]",
               "RelativeToolTip": "UI\\FrmLeitor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T12:11:45.562Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmPrincipal.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmPrincipal.cs",
-              "RelativeDocumentMoniker": "UI\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmPrincipal.cs [Design]",
-              "RelativeToolTip": "UI\\FrmPrincipal.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T11:45:37.174Z",
+              "WhenOpened": "2024-06-13T15:08:01.032Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FrmLivro.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLivro.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLivro.cs",
               "RelativeDocumentMoniker": "UI\\FrmLivro.cs",
-              "ToolTip": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLivro.cs [Design]",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLivro.cs [Design]",
               "RelativeToolTip": "UI\\FrmLivro.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T11:45:36.996Z",
+              "WhenOpened": "2024-06-13T15:07:59.613Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FrmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmPrincipal.cs",
+              "Title": "FrmPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmPrincipal.cs",
               "RelativeDocumentMoniker": "UI\\FrmPrincipal.cs",
-              "ToolTip": "C:\\Users\\Felip\\Downloads\\apBiblioteca\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmPrincipal.cs",
-              "RelativeToolTip": "UI\\FrmPrincipal.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAqwBsAAAAQAAAA",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmPrincipal.cs [Design]",
+              "RelativeToolTip": "UI\\FrmPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T11:45:36.997Z",
+              "WhenOpened": "2024-06-13T15:09:30.688Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmOperacoes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmOperacoes.cs",
+              "RelativeDocumentMoniker": "UI\\FrmOperacoes.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmOperacoes.cs [Design]",
+              "RelativeToolTip": "UI\\FrmOperacoes.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:05:27.265Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmRelatorios.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmRelatorios.cs",
+              "RelativeDocumentMoniker": "UI\\FrmRelatorios.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmRelatorios.cs [Design]",
+              "RelativeToolTip": "UI\\FrmRelatorios.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:02:46.753Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Emprestimo.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\DTO\\Emprestimo.cs",
+              "RelativeDocumentMoniker": "DTO\\Emprestimo.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\DTO\\Emprestimo.cs",
+              "RelativeToolTip": "DTO\\Emprestimo.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:17:15.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Leitor.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\DTO\\Leitor.cs",
+              "RelativeDocumentMoniker": "DTO\\Leitor.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\DTO\\Leitor.cs",
+              "RelativeToolTip": "DTO\\Leitor.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:17:27.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LivroDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\DAL\\LivroDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\LivroDAL.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\DAL\\LivroDAL.cs",
+              "RelativeToolTip": "DAL\\LivroDAL.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:17:09.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmprestimoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\DAL\\EmprestimoDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\EmprestimoDAL.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\DAL\\EmprestimoDAL.cs",
+              "RelativeToolTip": "DAL\\EmprestimoDAL.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:17:01.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LeitorDAL.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\DAL\\LeitorDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\LeitorDAL.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\DAL\\LeitorDAL.cs",
+              "RelativeToolTip": "DAL\\LeitorDAL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:17:06.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LivroBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\BLL\\LivroBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\LivroBLL.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\BLL\\LivroBLL.cs",
+              "RelativeToolTip": "BLL\\LivroBLL.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:41:24.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LeitorBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\BLL\\LeitorBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\LeitorBLL.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\BLL\\LeitorBLL.cs",
+              "RelativeToolTip": "BLL\\LeitorBLL.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:53:26.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FrmOperacoes.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmOperacoes.cs",
+              "RelativeDocumentMoniker": "UI\\FrmOperacoes.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmOperacoes.cs",
+              "RelativeToolTip": "UI\\FrmOperacoes.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAEAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:05:54.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmprestimoBLL.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\BLL\\EmprestimoBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\EmprestimoBLL.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\BLL\\EmprestimoBLL.cs",
+              "RelativeToolTip": "BLL\\EmprestimoBLL.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:51:44.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrmLeitor.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLeitor.cs",
+              "RelativeDocumentMoniker": "UI\\FrmLeitor.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLeitor.cs",
+              "RelativeToolTip": "UI\\FrmLeitor.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwCwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:08:18.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FrmLivro.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLivro.cs",
+              "RelativeDocumentMoniker": "UI\\FrmLivro.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLivro.cs",
+              "RelativeToolTip": "UI\\FrmLivro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T14:57:28.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FrmPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\FrmPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmPrincipal.Designer.cs",
+              "RelativeToolTip": "UI\\FrmPrincipal.Designer.cs",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAQwKEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:14:07.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FrmLeitor.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLeitor.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\FrmLeitor.Designer.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmLeitor.Designer.cs",
+              "RelativeToolTip": "UI\\FrmLeitor.Designer.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAQwGEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:13:58.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "UI\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmPrincipal.cs",
+              "RelativeToolTip": "UI\\FrmPrincipal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:09:53.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FrmRelatorios.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmRelatorios.cs",
+              "RelativeDocumentMoniker": "UI\\FrmRelatorios.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmRelatorios.cs",
+              "RelativeToolTip": "UI\\FrmRelatorios.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:04:43.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FrmRelatorios.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmRelatorios.Designer.cs",
+              "RelativeDocumentMoniker": "UI\\FrmRelatorios.Designer.cs",
+              "ToolTip": "C:\\Users\\Felip\\OneDrive\\Documentos\\GitHub\\apBiblioteca\\apBiblioteca_22129_22130\\UI\\FrmRelatorios.Designer.cs",
+              "RelativeToolTip": "UI\\FrmRelatorios.Designer.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAQwJoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T15:02:53.62Z",
               "EditorCaption": ""
             }
           ]

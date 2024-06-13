@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.btnExibir = new System.Windows.Forms.Button();
@@ -45,10 +46,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dgvLivro = new System.Windows.Forms.DataGridView();
+            this.bibLivroBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLivro)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bibLivroBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -57,7 +60,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Location = new System.Drawing.Point(9, 7);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(832, 476);
@@ -79,9 +82,9 @@
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage1.Size = new System.Drawing.Size(824, 447);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Cadastro";
@@ -90,7 +93,7 @@
             // btnExibir
             // 
             this.btnExibir.Location = new System.Drawing.Point(683, 398);
-            this.btnExibir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExibir.Margin = new System.Windows.Forms.Padding(4);
             this.btnExibir.Name = "btnExibir";
             this.btnExibir.Size = new System.Drawing.Size(100, 28);
             this.btnExibir.TabIndex = 12;
@@ -101,7 +104,7 @@
             // btnExcluir
             // 
             this.btnExcluir.Location = new System.Drawing.Point(428, 398);
-            this.btnExcluir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExcluir.Margin = new System.Windows.Forms.Padding(4);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(100, 28);
             this.btnExcluir.TabIndex = 11;
@@ -112,7 +115,7 @@
             // btnAlterar
             // 
             this.btnAlterar.Location = new System.Drawing.Point(244, 398);
-            this.btnAlterar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAlterar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(100, 28);
             this.btnAlterar.TabIndex = 10;
@@ -123,7 +126,7 @@
             // btnNovo
             // 
             this.btnNovo.Location = new System.Drawing.Point(63, 398);
-            this.btnNovo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNovo.Margin = new System.Windows.Forms.Padding(4);
             this.btnNovo.Name = "btnNovo";
             this.btnNovo.Size = new System.Drawing.Size(100, 28);
             this.btnNovo.TabIndex = 9;
@@ -134,7 +137,7 @@
             // btnProcurar
             // 
             this.btnProcurar.Location = new System.Drawing.Point(403, 33);
-            this.btnProcurar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnProcurar.Margin = new System.Windows.Forms.Padding(4);
             this.btnProcurar.Name = "btnProcurar";
             this.btnProcurar.Size = new System.Drawing.Size(100, 28);
             this.btnProcurar.TabIndex = 8;
@@ -145,7 +148,7 @@
             // txtAutorLivro
             // 
             this.txtAutorLivro.Location = new System.Drawing.Point(171, 304);
-            this.txtAutorLivro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAutorLivro.Margin = new System.Windows.Forms.Padding(4);
             this.txtAutorLivro.MaxLength = 50;
             this.txtAutorLivro.Name = "txtAutorLivro";
             this.txtAutorLivro.Size = new System.Drawing.Size(611, 22);
@@ -154,7 +157,7 @@
             // txtTituloLivro
             // 
             this.txtTituloLivro.Location = new System.Drawing.Point(171, 206);
-            this.txtTituloLivro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTituloLivro.Margin = new System.Windows.Forms.Padding(4);
             this.txtTituloLivro.MaxLength = 50;
             this.txtTituloLivro.Name = "txtTituloLivro";
             this.txtTituloLivro.Size = new System.Drawing.Size(611, 22);
@@ -163,16 +166,16 @@
             // txtCodigoLivro
             // 
             this.txtCodigoLivro.Location = new System.Drawing.Point(171, 119);
-            this.txtCodigoLivro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCodigoLivro.Margin = new System.Windows.Forms.Padding(4);
             this.txtCodigoLivro.MaxLength = 10;
             this.txtCodigoLivro.Name = "txtCodigoLivro";
-            this.txtCodigoLivro.Size = new System.Drawing.Size(144, 10);
+            this.txtCodigoLivro.Size = new System.Drawing.Size(144, 22);
             this.txtCodigoLivro.TabIndex = 5;
             // 
             // txtIdLivro
             // 
             this.txtIdLivro.Location = new System.Drawing.Point(171, 36);
-            this.txtIdLivro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtIdLivro.Margin = new System.Windows.Forms.Padding(4);
             this.txtIdLivro.Name = "txtIdLivro";
             this.txtIdLivro.Size = new System.Drawing.Size(144, 22);
             this.txtIdLivro.TabIndex = 4;
@@ -221,9 +224,9 @@
             // 
             this.tabPage2.Controls.Add(this.dgvLivro);
             this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(4);
             this.tabPage2.Size = new System.Drawing.Size(824, 447);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Lista";
@@ -234,11 +237,15 @@
             this.dgvLivro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvLivro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLivro.Location = new System.Drawing.Point(8, 7);
-            this.dgvLivro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvLivro.Margin = new System.Windows.Forms.Padding(4);
             this.dgvLivro.Name = "dgvLivro";
             this.dgvLivro.RowHeadersWidth = 51;
             this.dgvLivro.Size = new System.Drawing.Size(808, 432);
             this.dgvLivro.TabIndex = 0;
+            // 
+            // bibLivroBindingSource
+            // 
+            this.bibLivroBindingSource.DataMember = "bibLivro";
             // 
             // FrmLivro
             // 
@@ -246,14 +253,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(863, 492);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmLivro";
-            this.Text = "Manutenção de Livros";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLivro)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bibLivroBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -277,5 +284,6 @@
         private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.Button btnProcurar;
         private System.Windows.Forms.TextBox txtAutorLivro;
+        private System.Windows.Forms.BindingSource bibLivroBindingSource;
     }
 }
