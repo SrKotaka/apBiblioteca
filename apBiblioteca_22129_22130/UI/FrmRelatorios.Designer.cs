@@ -70,6 +70,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvLeitores.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.dgvLeitores.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.dgvLeitores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLeitores.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Id,
@@ -90,7 +91,7 @@
             this.Id.MinimumWidth = 6;
             this.Id.Name = "Id";
             this.Id.ReadOnly = true;
-            this.Id.Width = 163;
+            this.Id.Width = 112;
             // 
             // NomeLeitor
             // 
@@ -99,7 +100,7 @@
             this.NomeLeitor.MinimumWidth = 6;
             this.NomeLeitor.Name = "NomeLeitor";
             this.NomeLeitor.ReadOnly = true;
-            this.NomeLeitor.Width = 97;
+            this.NomeLeitor.Width = 73;
             // 
             // LivrosEmprestados
             // 
@@ -108,7 +109,7 @@
             this.LivrosEmprestados.MinimumWidth = 6;
             this.LivrosEmprestados.Name = "LivrosEmprestados";
             this.LivrosEmprestados.ReadOnly = true;
-            this.LivrosEmprestados.Width = 323;
+            this.LivrosEmprestados.Width = 210;
             // 
             // LivrosAtrasados
             // 
@@ -117,16 +118,16 @@
             this.LivrosAtrasados.MinimumWidth = 6;
             this.LivrosAtrasados.Name = "LivrosAtrasados";
             this.LivrosAtrasados.ReadOnly = true;
-            this.LivrosAtrasados.Width = 271;
+            this.LivrosAtrasados.Width = 196;
             // 
             // tbLivros
             // 
             this.tbLivros.BackColor = System.Drawing.SystemColors.Window;
             this.tbLivros.Controls.Add(this.dgvLivros);
-            this.tbLivros.Location = new System.Drawing.Point(4, 34);
+            this.tbLivros.Location = new System.Drawing.Point(4, 25);
             this.tbLivros.Name = "tbLivros";
             this.tbLivros.Padding = new System.Windows.Forms.Padding(3);
-            this.tbLivros.Size = new System.Drawing.Size(749, 299);
+            this.tbLivros.Size = new System.Drawing.Size(749, 308);
             this.tbLivros.TabIndex = 0;
             this.tbLivros.Text = "Livros";
             // 
@@ -138,6 +139,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvLivros.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.DisplayedCells;
+            this.dgvLivros.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.dgvLivros.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLivros.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IdEmprestimo,
@@ -147,12 +149,14 @@
             this.leitor,
             this.Devolvido,
             this.DiasAtraso});
+            this.dgvLivros.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.dgvLivros.Location = new System.Drawing.Point(4, 5);
             this.dgvLivros.Name = "dgvLivros";
             this.dgvLivros.ReadOnly = true;
             this.dgvLivros.RowHeadersWidth = 51;
             this.dgvLivros.Size = new System.Drawing.Size(740, 263);
             this.dgvLivros.TabIndex = 2;
+            this.dgvLivros.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLivros_CellContentClick);
             // 
             // IdEmprestimo
             // 
@@ -160,7 +164,7 @@
             this.IdEmprestimo.MinimumWidth = 6;
             this.IdEmprestimo.Name = "IdEmprestimo";
             this.IdEmprestimo.ReadOnly = true;
-            this.IdEmprestimo.Width = 172;
+            this.IdEmprestimo.Width = 119;
             // 
             // IdLivro
             // 
@@ -169,7 +173,7 @@
             this.IdLivro.MinimumWidth = 6;
             this.IdLivro.Name = "IdLivro";
             this.IdLivro.ReadOnly = true;
-            this.IdLivro.Width = 106;
+            this.IdLivro.Width = 76;
             // 
             // TituloLivro
             // 
@@ -178,7 +182,7 @@
             this.TituloLivro.MinimumWidth = 6;
             this.TituloLivro.Name = "TituloLivro";
             this.TituloLivro.ReadOnly = true;
-            this.TituloLivro.Width = 88;
+            this.TituloLivro.Width = 65;
             // 
             // IdLeitor
             // 
@@ -187,7 +191,7 @@
             this.IdLeitor.MinimumWidth = 6;
             this.IdLeitor.Name = "IdLeitor";
             this.IdLeitor.ReadOnly = true;
-            this.IdLeitor.Width = 113;
+            this.IdLeitor.Width = 80;
             // 
             // leitor
             // 
@@ -196,7 +200,7 @@
             this.leitor.MinimumWidth = 6;
             this.leitor.Name = "leitor";
             this.leitor.ReadOnly = true;
-            this.leitor.Width = 95;
+            this.leitor.Width = 69;
             // 
             // Devolvido
             // 
@@ -205,7 +209,7 @@
             this.Devolvido.MinimumWidth = 6;
             this.Devolvido.Name = "Devolvido";
             this.Devolvido.ReadOnly = true;
-            this.Devolvido.Width = 148;
+            this.Devolvido.Width = 105;
             // 
             // DiasAtraso
             // 
@@ -214,7 +218,7 @@
             this.DiasAtraso.MinimumWidth = 6;
             this.DiasAtraso.Name = "DiasAtraso";
             this.DiasAtraso.ReadOnly = true;
-            this.DiasAtraso.Width = 167;
+            this.DiasAtraso.Width = 115;
             // 
             // tabControl1
             // 
@@ -223,6 +227,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tbLivros);
             this.tabControl1.Controls.Add(this.tbLeitores);
+            this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.tabControl1.Location = new System.Drawing.Point(-1, 1);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;

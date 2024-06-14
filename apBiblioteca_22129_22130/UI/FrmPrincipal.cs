@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace apBiblioteca_22129_22130.UI
@@ -176,6 +169,16 @@ namespace apBiblioteca_22129_22130.UI
                     MessageBox.Show("Falha ao conectar com o Banco de Dados!");
                 }
             }
+        }
+
+        private void relatorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

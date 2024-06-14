@@ -1,13 +1,6 @@
 ﻿using DTO;
 using BLL;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace apBiblioteca_22129_22130.UI
@@ -268,6 +261,11 @@ namespace apBiblioteca_22129_22130.UI
         private void btnHelp_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Para exibir as estatisticas na aba Lista pressione o botão exibir");
+        }
+
+        private void btnAlterar_Click_1(object sender, EventArgs e)
+        {
+
         }
 
         private void btnNovo_Click(object sender, EventArgs e)

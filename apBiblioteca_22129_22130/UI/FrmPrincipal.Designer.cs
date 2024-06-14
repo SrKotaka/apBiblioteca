@@ -72,12 +72,13 @@
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
+            this.cadastroToolStripMenuItem.Click += new System.EventHandler(this.cadastroToolStripMenuItem_Click);
             // 
             // livrosToolStripMenuItem
             // 
             this.livrosToolStripMenuItem.Name = "livrosToolStripMenuItem";
             this.livrosToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
-            this.livrosToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
+            this.livrosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.livrosToolStripMenuItem.Text = "Livros";
             this.livrosToolStripMenuItem.Click += new System.EventHandler(this.livrosToolStripMenuItem_Click);
             // 
@@ -85,20 +86,20 @@
             // 
             this.leitoresToolStripMenuItem.Name = "leitoresToolStripMenuItem";
             this.leitoresToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-            this.leitoresToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
+            this.leitoresToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.leitoresToolStripMenuItem.Text = "Leitores";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(193, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(221, 6);
             // 
             // sairToolStripMenuItem1
             // 
             this.sairToolStripMenuItem1.Name = "sairToolStripMenuItem1";
-            this.sairToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt)
+            this.sairToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Alt) 
             | System.Windows.Forms.Keys.S)));
-            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(196, 26);
+            this.sairToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
             this.sairToolStripMenuItem1.Text = "Sair";
             // 
             // operaçõesToolStripMenuItem
@@ -112,6 +113,7 @@
             this.relatorToolStripMenuItem.Name = "relatorToolStripMenuItem";
             this.relatorToolStripMenuItem.Size = new System.Drawing.Size(90, 24);
             this.relatorToolStripMenuItem.Text = "Relatórios";
+            this.relatorToolStripMenuItem.Click += new System.EventHandler(this.relatorToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
@@ -164,6 +166,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.label3.Location = new System.Drawing.Point(9, 112);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
@@ -191,7 +194,7 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Banco De Dados:";
             // 
-            // FrmPrincipal
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -200,7 +203,7 @@
             this.Controls.Add(this.menuStrip);
             this.MainMenuStrip = this.menuStrip;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "FrmPrincipal";
+            this.Name = "Form1";
             this.Text = "Sistema de Biblioteca";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();

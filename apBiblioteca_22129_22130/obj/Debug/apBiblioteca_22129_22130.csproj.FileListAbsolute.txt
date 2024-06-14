@@ -12,7 +12,6 @@ C:\Users\u22129\Documents\GitHub\apBiblioteca\apBiblioteca_22129_22130\obj\Debug
 C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\obj\Debug\apBiblioteca_22129_22130.csproj.AssemblyReference.cache
 C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\obj\Debug\apBiblioteca_22129_22130.Properties.Resources.resources
 C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\obj\Debug\apBiblioteca_22129_22130.UI.FrmLivro.resources
-C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\obj\Debug\apBiblioteca_22129_22130.UI.FrmPrincipal.resources
 C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\obj\Debug\apBiblioteca_22129_22130.csproj.GenerateResource.cache
 C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\obj\Debug\apBiblioteca_22129_22130.csproj.CoreCompileInputs.cache
 C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\obj\Debug\apBiblioteca_22129_22130.exe
@@ -20,3 +19,7 @@ C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\
 C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\bin\Debug\apBiblioteca_22129_22130.exe.config
 C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\bin\Debug\apBiblioteca_22129_22130.exe
 C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\bin\Debug\apBiblioteca_22129_22130.pdb
+C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\obj\Debug\apBiblioteca_22129_22130.UI.FrmLeitor.resources
+C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\obj\Debug\apBiblioteca_22129_22130.UI.FrmOperacoes.resources
+C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\obj\Debug\apBiblioteca_22129_22130.UI.Form1.resources
+C:\Users\Felip\OneDrive\Documentos\GitHub\apBiblioteca\apBiblioteca_22129_22130\obj\Debug\apBiblioteca_22129_22130.UI.FrmRelatorios.resources

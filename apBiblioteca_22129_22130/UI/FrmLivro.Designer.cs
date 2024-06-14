@@ -68,6 +68,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.tabPage1.Controls.Add(this.btnExibir);
             this.tabPage1.Controls.Add(this.btnExcluir);
             this.tabPage1.Controls.Add(this.btnAlterar);
@@ -81,6 +82,7 @@
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Cursor = System.Windows.Forms.Cursors.Default;
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage1.Name = "tabPage1";
@@ -88,7 +90,6 @@
             this.tabPage1.Size = new System.Drawing.Size(824, 447);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Cadastro";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // btnExibir
             // 
@@ -235,6 +236,7 @@
             // dgvLivro
             // 
             this.dgvLivro.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvLivro.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.dgvLivro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLivro.Location = new System.Drawing.Point(8, 7);
             this.dgvLivro.Margin = new System.Windows.Forms.Padding(4);
