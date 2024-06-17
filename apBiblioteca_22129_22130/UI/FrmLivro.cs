@@ -13,17 +13,17 @@ namespace apBiblioteca_22129_22130.UI
         {
             LivroBLL bll = new LivroBLL(banco, usuario, senha);
             dgvLivro.DataSource = bll.SelecionarLivros();
-
-            // os comandos abaixo são usados para o dgv auto gerar as colunas com base nos campos da tabela no banco de dados
             dgvLivro.AutoGenerateColumns = true;
             dgvLivro.BindingContext = new BindingContext();
 
             dgvLivro.AutoResizeColumns();
         }
+
+        // botão para incluir um novo livro
         private void btnNovo_Click(object sender, EventArgs e)
         {
             if (txtCodigoLivro.Text == "" || txtTituloLivro.Text == "" || txtAutorLivro.Text == "")
-                MessageBox.Show("Informações ausentes!");
+                MessageBox.Show("Sem informações!");
             else
             {
                 try
@@ -34,54 +34,56 @@ namespace apBiblioteca_22129_22130.UI
                     livro.AutorLivro = txtAutorLivro.Text;
                     try
                     {
-                        LivroBLL bll = new LivroBLL(banco, usuario, senha);
-                        bll.IncluirLivro(livro);
-                        MessageBox.Show("Inclusão feita com sucesso!");
+                        LivroBLL bll = new LivroBLL(banco, usuario, senha);   // nome do banco, o usuario e a senha
+                        bll.IncluirLivro(livro);  // inclui um novo livro
+                        MessageBox.Show("Inclusão feita com sucesso!");  // a inclusao deu certo
 
                         Livro l = bll.ListarLivroPorCodigo(txtCodigoLivro.Text.PadRight(10, '0'));
                         txtIdLivro.Text = l.IdLivro + "";
 
-                        // após incluir, clicamos no botão exibir para o dgv ser atualizado automaticamente
                         btnExibir.PerformClick();
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("Erro: " + ex.Message);
+                        MessageBox.Show("Erro: " + ex.Message);  // caso de erro, entra no catch
                     }
                 }
                 catch
                 {
-                    MessageBox.Show("Código inválido!");
+                    MessageBox.Show("Código inválido!"); // caso tudo de erro, entra no catch maior
                 }
             }
 
         }
+
+        // botão para excluir um livro
         private void btnExcluir_Click(object sender, EventArgs e)
         {
             if (txtIdLivro.Text == "")
-                MessageBox.Show("Id ausente!");
+                MessageBox.Show("Id ausente!");  // o id do livro não foi preenchido
             else
             {
-                Livro livro = new Livro(Convert.ToInt32(txtIdLivro.Text), "", "", "");
+                Livro livro = new Livro(Convert.ToInt32(txtIdLivro.Text), "", "", "");   // converte para inteiro
                 try
                 {
-                    LivroBLL bll = new LivroBLL(banco, usuario, senha);
-                    bll.ExcluirLivro(livro);
-                    MessageBox.Show("Exclusão feita com sucesso!");
+                    LivroBLL bll = new LivroBLL(banco, usuario, senha);   // nome do banco, o usuario e a senha
+                    bll.ExcluirLivro(livro);  // exclui o livro
+                    MessageBox.Show("Exclusão feita com sucesso!");  // a exclusao deu certo
 
-                    // após excluir, clicamos no botão exibir para o dgv ser atualizado automaticamente
                     btnExibir.PerformClick();
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Erro: " + ex.Message);
+                    MessageBox.Show("Erro: " + ex.Message);  // caso de erro, entra no catch
                 }
             }
         }
+
+        // botão para procurar um livro
         private void btnProcurar_Click(object sender, EventArgs e)
         {
             if (txtCodigoLivro.Text == "")
-                MessageBox.Show("Preencha o Id para buscar por um Livro!");
+                MessageBox.Show("Preencha o Id para buscar por um Livro!");  // é necessário preencher o id do livro
             else
             {
                 string codigo = txtCodigoLivro.Text;
@@ -90,9 +92,9 @@ namespace apBiblioteca_22129_22130.UI
                     Livro livro = new Livro(0, codigo, "", "");
                     try
                     {
-                        LivroBLL bll = new LivroBLL(banco, usuario, senha);
+                        LivroBLL bll = new LivroBLL(banco, usuario, senha);   // nome do banco, o usuario e a senha
                         livro = bll.ListarLivroPorCodigo(codigo);
-                        if (livro != null)
+                        if (livro != null)  // se for nulo (null)
                         {
                             txtIdLivro.Text = livro.IdLivro + "";
                             txtCodigoLivro.Text = livro.CodigoLivro;
@@ -101,31 +103,38 @@ namespace apBiblioteca_22129_22130.UI
                         }
                         else
                         {
-                            MessageBox.Show("Erro! Livro inexistente!");
+                            MessageBox.Show("Erro! O Livro não existe nod dados do banco de dados!");  // o livro não existe
                         }
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("Erro: " + ex.Message);
+                        MessageBox.Show("Erro: " + ex.Message);  // erro
                     }
                     txtIdLivro.ReadOnly = true;
                 }
                 catch
                 {
-                    MessageBox.Show("Código inválido!");
+                    MessageBox.Show("Código inválido!");  // o código informado para o livro é inválido
                 }
             }
         }
-        //botao para a ajuda de usuarios, caso o uso do programa fique confuso
+
+        // botão para solicitar ajuda
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Para exibir as estatisticas na aba Lista pressione o botão exibir");
+            MessageBox.Show("Para exibir as estatisticas na aba Lista pressione o botão exibir");  // mensagem de ajuda
         }
 
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        // botão para alterar um livro
         private void btnAlterar_Click(object sender, EventArgs e)
         {
-            if (txtIdLivro.Text == "")
-                MessageBox.Show("Id ausente!");
+            if (txtIdLivro.Text == "")  // se o id for vazio
+                MessageBox.Show("Id ausente!"); // mensagem de erro, pois o id está vazio e isso é permitido
             else
             {
                 try
@@ -137,10 +146,9 @@ namespace apBiblioteca_22129_22130.UI
                     try
                     {
                         LivroBLL bll = new LivroBLL(banco, usuario, senha);
-                        bll.AlterarLivro(livro);
-                        MessageBox.Show("Alteração feita com sucesso!");
+                        bll.AlterarLivro(livro);  // alterar os dados de um livro
+                        MessageBox.Show("Alteração feita com sucesso!");  // a alteração foi feita com sucesso
 
-                        // após alterar, clicamos no botão exibir para o dgv ser atualizado automaticamente
                         btnExibir.PerformClick();
                     }
                     catch (Exception ex)
@@ -150,7 +158,7 @@ namespace apBiblioteca_22129_22130.UI
                 }
                 catch
                 {
-                    MessageBox.Show("Informações inválidas!");
+                    MessageBox.Show("Informações inválidas!");  // as informações são inválidas
                 }
             }
         }

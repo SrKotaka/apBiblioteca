@@ -18,35 +18,33 @@ namespace apBiblioteca_22129_22130.UI
 
         private void simToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Close();
+            Close();  // fecha o programa, termina a sua execução
         }
 
         private void livroToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (txtBanco.Text == "" || txtUsuario.Text == "" || txtSenha.Text == "")
-                MessageBox.Show("Preencha os dados de conexâo!");
+                MessageBox.Show("Preencha os dados de conexâo!");   // solicita ao usuario que informe o nome do banco, o usuario e a senha
 
             else
             {
                 formLivros = new UI.FrmLivro();
 
-                // verificamos se o bd o usuário realmente existem e se a senha está correta ao tentarmos conetar com o bd
-                // isso serve para o usuário não poder acessar outros forms caso não tenha digitado as informações corretamente
                 string _conexaoSQLServer = $"Data Source = regulus.cotuca.unicamp.br; Initial Catalog={txtBanco.Text};" +
                 $"User id = {txtUsuario.Text}; Password={txtSenha.Text}";
 
                 try
                 {
-                    SqlConnection conn = new SqlConnection(_conexaoSQLServer);
-                    conn.Open();
-                    formLivros.banco = txtBanco.Text;
-                    formLivros.usuario = txtUsuario.Text;
-                    formLivros.senha = txtSenha.Text;
-                    formLivros.Show();
+                    SqlConnection conn = new SqlConnection(_conexaoSQLServer);  // é criada uma instância de conexão com o banco de dados
+                    conn.Open();  // a conexão ao banco de dados é aberta
+                    formLivros.banco = txtBanco.Text;         // propriedade banco do formulário formLivros com o texto do controle txtBanco.
+                    formLivros.usuario = txtUsuario.Text;    // propriedade banco do formulário formLivros com o texto do controle txtUsuario.
+                    formLivros.senha = txtSenha.Text;       // propriedade banco do formulário formLivros com o texto do controle txtSenha.
+                    formLivros.Show();  // o formulário 'formLivros' é exibido
                 }
                 catch
                 {
-                    MessageBox.Show("Falha ao conectar com o Banco de Dados!");
+                    MessageBox.Show("Falha ao conectar com o Banco de Dados!");   // caso de erro de conexão ao banco de dados, entra no catch
                 }
             }
         }
@@ -60,23 +58,21 @@ namespace apBiblioteca_22129_22130.UI
             {
                 formOperacoes = new UI.FrmOperacoes();
 
-                // verificamos se o bd o usuário realmente existem e se a senha está correta ao tentarmos conetar com o bd
-                // isso serve para o usuário não poder acessar outros forms caso não tenha digitado as informações corretamente
                 string _conexaoSQLServer = $"Data Source = regulus.cotuca.unicamp.br; Initial Catalog={txtBanco.Text};" +
                 $"User id = {txtUsuario.Text}; Password={txtSenha.Text}";
 
                 try
                 {
-                    SqlConnection conn = new SqlConnection(_conexaoSQLServer);
+                    SqlConnection conn = new SqlConnection(_conexaoSQLServer);  // é criada uma instância de conexão com o banco de dados
                     conn.Open();
                     formOperacoes.banco = txtBanco.Text;
                     formOperacoes.usuario = txtUsuario.Text;
                     formOperacoes.senha = txtSenha.Text;
-                    formOperacoes.Show();
+                    formOperacoes.Show();  // o formulário 'formLivros' é exibido
                 }
                 catch
                 {
-                    MessageBox.Show("Falha ao conectar com o Banco de Dados!");
+                    MessageBox.Show("Falha ao conectar com o Banco de Dados!");   // caso de erro de conexão ao banco de dados, entra no catch
                 }
             }
         }
@@ -89,9 +85,6 @@ namespace apBiblioteca_22129_22130.UI
             else
             {
                 formLeitores = new UI.FrmLeitor();
-
-                // verificamos se o bd o usuário realmente existem e se a senha está correta ao tentarmos conetar com o bd
-                // isso serve para o usuário não poder acessar outros forms caso não tenha digitado as informações corretamente
                 string _conexaoSQLServer = $"Data Source = regulus.cotuca.unicamp.br; Initial Catalog={txtBanco.Text};" +
                 $"User id = {txtUsuario.Text}; Password={txtSenha.Text}";
 
@@ -106,7 +99,7 @@ namespace apBiblioteca_22129_22130.UI
                 }
                 catch
                 {
-                    MessageBox.Show("Falha ao conectar com o Banco de Dados!");
+                    MessageBox.Show("Falha ao conectar com o Banco de Dados!");   // caso de erro de conexão ao banco de dados, entra no catch
                 }
             }
         }
@@ -120,8 +113,6 @@ namespace apBiblioteca_22129_22130.UI
             {
                 formOperacoes = new UI.FrmOperacoes();
 
-                // verificamos se o bd o usuário realmente existem e se a senha está correta ao tentarmos conetar com o bd
-                // isso serve para o usuário não poder acessar outros forms caso não tenha digitado as informações corretamente
                 string _conexaoSQLServer = $"Data Source = regulus.cotuca.unicamp.br; Initial Catalog={txtBanco.Text};" +
                 $"User id = {txtUsuario.Text}; Password={txtSenha.Text}";
 
@@ -136,49 +127,51 @@ namespace apBiblioteca_22129_22130.UI
                 }
                 catch
                 {
-                    MessageBox.Show("Falha ao conectar com o Banco de Dados!");
+                    MessageBox.Show("Falha ao conectar com o Banco de Dados!");   // caso de erro de conexão ao banco de dados, entra no catch
                 }
             }
         }
 
         private void livrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (txtBanco.Text == "" || txtUsuario.Text == "" || txtSenha.Text == "")
-                MessageBox.Show("Preencha os dados de conexâo!");
-
+           if(txtBanco.Text == "" || txtUsuario.Text == "" || txtSenha.Text == "")
+                MessageBox.Show("Preencha os dados de conexão!");
             else
             {
-                formRelatorios = new UI.FrmRelatorios();
+                formLivros = new UI.FrmLivro();
+                formLivros.banco = txtBanco.Text;
+                formLivros.usuario = txtUsuario.Text;
+                formLivros.senha = txtSenha.Text;
+                formLivros.Show();  // o formulário 'formLivros' é exibido
+            }   
+        }
 
-                // verificamos se o bd o usuário realmente existem e se a senha está correta ao tentarmos conetar com o bd
-                // isso serve para o usuário não poder acessar outros forms caso não tenha digitado as informações corretamente
-                string _conexaoSQLServer = $"Data Source = regulus.cotuca.unicamp.br; Initial Catalog={txtBanco.Text};" +
-                $"User id = {txtUsuario.Text}; Password={txtSenha.Text}";
-
-                try
-                {
-                    SqlConnection conn = new SqlConnection(_conexaoSQLServer);
-                    conn.Open();
-                    formRelatorios.banco = txtBanco.Text;
-                    formRelatorios.usuario = txtUsuario.Text;
-                    formRelatorios.senha = txtSenha.Text;
-                    formRelatorios.Show();
-                }
-                catch
-                {
-                    MessageBox.Show("Falha ao conectar com o Banco de Dados!");
-                }
-            }
+        private void operaçõesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmOperacoes formOperacoes = new FrmOperacoes();
+            formOperacoes.Show();  // o formulário 'formLivros' é exibido
         }
 
         private void relatorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            FrmRelatorios formRelatorios = new FrmRelatorios();
+            formRelatorios.Show();  // o formulário 'formLivros' é exibido
         }
 
-        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Close();  // fecha o formulário
+        }
 
+        private void simToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();  // fecha o formulário
+        }
+
+        private void leitoresToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            FrmLeitor formLeitor = new FrmLeitor();
+            formLeitor.Show();
         }
     }
 }

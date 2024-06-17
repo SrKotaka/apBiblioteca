@@ -67,10 +67,10 @@
             // 
             this.tbLista.Controls.Add(this.dgvLista);
             this.tbLista.Controls.Add(this.label1);
-            this.tbLista.Location = new System.Drawing.Point(4, 25);
+            this.tbLista.Location = new System.Drawing.Point(4, 22);
             this.tbLista.Name = "tbLista";
             this.tbLista.Padding = new System.Windows.Forms.Padding(3);
-            this.tbLista.Size = new System.Drawing.Size(999, 236);
+            this.tbLista.Size = new System.Drawing.Size(999, 239);
             this.tbLista.TabIndex = 2;
             this.tbLista.Text = "Lista";
             this.tbLista.UseVisualStyleBackColor = true;
@@ -101,14 +101,14 @@
             this.clCheck.MinimumWidth = 6;
             this.clCheck.Name = "clCheck";
             this.clCheck.ReadOnly = true;
-            this.clCheck.Width = 78;
+            this.clCheck.Width = 63;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(28, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 16);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 0;
             // 
             // tbDevolucao
@@ -119,10 +119,10 @@
             this.tbDevolucao.Controls.Add(this.txtIdCadastro);
             this.tbDevolucao.Controls.Add(this.label6);
             this.tbDevolucao.Controls.Add(this.label5);
-            this.tbDevolucao.Location = new System.Drawing.Point(4, 25);
+            this.tbDevolucao.Location = new System.Drawing.Point(4, 22);
             this.tbDevolucao.Name = "tbDevolucao";
             this.tbDevolucao.Padding = new System.Windows.Forms.Padding(3);
-            this.tbDevolucao.Size = new System.Drawing.Size(999, 236);
+            this.tbDevolucao.Size = new System.Drawing.Size(999, 239);
             this.tbDevolucao.TabIndex = 1;
             this.tbDevolucao.Text = "Devoluções";
             // 
@@ -130,7 +130,7 @@
             // 
             this.dtDevolucaoReal.Location = new System.Drawing.Point(301, 80);
             this.dtDevolucaoReal.Name = "dtDevolucaoReal";
-            this.dtDevolucaoReal.Size = new System.Drawing.Size(347, 22);
+            this.dtDevolucaoReal.Size = new System.Drawing.Size(347, 19);
             this.dtDevolucaoReal.TabIndex = 21;
             // 
             // btnRegistrarDevolucao
@@ -143,12 +143,13 @@
             this.btnRegistrarDevolucao.TabIndex = 17;
             this.btnRegistrarDevolucao.Text = "Registrar Devolução";
             this.btnRegistrarDevolucao.UseVisualStyleBackColor = false;
+            this.btnRegistrarDevolucao.Click += new System.EventHandler(this.btnRegistrarDevolucao_Click_1);
             // 
             // txtIdCadastro
             // 
             this.txtIdCadastro.Location = new System.Drawing.Point(301, 34);
             this.txtIdCadastro.Name = "txtIdCadastro";
-            this.txtIdCadastro.Size = new System.Drawing.Size(209, 22);
+            this.txtIdCadastro.Size = new System.Drawing.Size(209, 19);
             this.txtIdCadastro.TabIndex = 2;
             // 
             // label6
@@ -156,7 +157,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(33, 85);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(140, 16);
+            this.label6.Size = new System.Drawing.Size(113, 13);
             this.label6.TabIndex = 1;
             this.label6.Text = "Data Devolução Real:";
             // 
@@ -165,7 +166,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(33, 37);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(180, 16);
+            this.label5.Size = new System.Drawing.Size(143, 13);
             this.label5.TabIndex = 0;
             this.label5.Text = "Identificação do Emprestimo:";
             // 
@@ -188,10 +189,10 @@
             this.tbEmprestimo.Controls.Add(this.label4);
             this.tbEmprestimo.Controls.Add(this.label3);
             this.tbEmprestimo.Controls.Add(this.label2);
-            this.tbEmprestimo.Location = new System.Drawing.Point(4, 25);
+            this.tbEmprestimo.Location = new System.Drawing.Point(4, 22);
             this.tbEmprestimo.Name = "tbEmprestimo";
             this.tbEmprestimo.Padding = new System.Windows.Forms.Padding(3);
-            this.tbEmprestimo.Size = new System.Drawing.Size(999, 236);
+            this.tbEmprestimo.Size = new System.Drawing.Size(999, 239);
             this.tbEmprestimo.TabIndex = 0;
             this.tbEmprestimo.Text = "Empréstimos";
             // 
@@ -213,7 +214,7 @@
             this.dtDevolucaoPrevista.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.dtDevolucaoPrevista.Location = new System.Drawing.Point(585, 81);
             this.dtDevolucaoPrevista.Name = "dtDevolucaoPrevista";
-            this.dtDevolucaoPrevista.Size = new System.Drawing.Size(390, 22);
+            this.dtDevolucaoPrevista.Size = new System.Drawing.Size(390, 19);
             this.dtDevolucaoPrevista.TabIndex = 21;
             // 
             // dtDataEmprestimo
@@ -221,7 +222,7 @@
             this.dtDataEmprestimo.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.dtDataEmprestimo.Location = new System.Drawing.Point(585, 43);
             this.dtDataEmprestimo.Name = "dtDataEmprestimo";
-            this.dtDataEmprestimo.Size = new System.Drawing.Size(390, 22);
+            this.dtDataEmprestimo.Size = new System.Drawing.Size(390, 19);
             this.dtDataEmprestimo.TabIndex = 20;
             // 
             // btnExcluir
@@ -235,6 +236,7 @@
             this.btnExcluir.TabIndex = 19;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = false;
+            this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click_1);
             // 
             // btnExibir
             // 
@@ -247,6 +249,7 @@
             this.btnExibir.TabIndex = 18;
             this.btnExibir.Text = "Exibir";
             this.btnExibir.UseVisualStyleBackColor = false;
+            this.btnExibir.Click += new System.EventHandler(this.btnExibir_Click_1);
             // 
             // btnAlterar
             // 
@@ -272,6 +275,7 @@
             this.btnNovo.TabIndex = 16;
             this.btnNovo.Text = "Novo";
             this.btnNovo.UseVisualStyleBackColor = false;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click_1);
             // 
             // btnProcurar
             // 
@@ -284,26 +288,27 @@
             this.btnProcurar.TabIndex = 15;
             this.btnProcurar.Text = "Procurar";
             this.btnProcurar.UseVisualStyleBackColor = false;
+            this.btnProcurar.Click += new System.EventHandler(this.btnProcurar_Click_1);
             // 
             // txtIdEmprestimo
             // 
             this.txtIdEmprestimo.Location = new System.Drawing.Point(236, 38);
             this.txtIdEmprestimo.Name = "txtIdEmprestimo";
-            this.txtIdEmprestimo.Size = new System.Drawing.Size(110, 22);
+            this.txtIdEmprestimo.Size = new System.Drawing.Size(110, 19);
             this.txtIdEmprestimo.TabIndex = 14;
             // 
             // txtIdLivro
             // 
             this.txtIdLivro.Location = new System.Drawing.Point(236, 113);
             this.txtIdLivro.Name = "txtIdLivro";
-            this.txtIdLivro.Size = new System.Drawing.Size(110, 22);
+            this.txtIdLivro.Size = new System.Drawing.Size(110, 19);
             this.txtIdLivro.TabIndex = 9;
             // 
             // txtIdLeitor
             // 
             this.txtIdLeitor.Location = new System.Drawing.Point(236, 76);
             this.txtIdLeitor.Name = "txtIdLeitor";
-            this.txtIdLeitor.Size = new System.Drawing.Size(110, 22);
+            this.txtIdLeitor.Size = new System.Drawing.Size(110, 19);
             this.txtIdLeitor.TabIndex = 0;
             // 
             // label9
@@ -312,7 +317,7 @@
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.label9.Location = new System.Drawing.Point(31, 41);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(93, 16);
+            this.label9.Size = new System.Drawing.Size(72, 13);
             this.label9.TabIndex = 13;
             this.label9.Text = "idEmprestimo:";
             // 
@@ -322,7 +327,7 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.label8.Location = new System.Drawing.Point(381, 87);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(128, 16);
+            this.label8.Size = new System.Drawing.Size(103, 13);
             this.label8.TabIndex = 8;
             this.label8.Text = "Devolução Prevista:";
             // 
@@ -332,7 +337,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.label4.Location = new System.Drawing.Point(381, 43);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(133, 16);
+            this.label4.Size = new System.Drawing.Size(105, 13);
             this.label4.TabIndex = 6;
             this.label4.Text = "Data do Emprestimo:";
             // 
@@ -342,7 +347,7 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.label3.Location = new System.Drawing.Point(32, 117);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 16);
+            this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "idLivro:";
             // 
@@ -352,7 +357,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F);
             this.label2.Location = new System.Drawing.Point(32, 79);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 16);
+            this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "idLeitor:";
             // 
@@ -373,7 +378,7 @@
             // 
             // FrmOperacoes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1012, 264);
             this.Controls.Add(this.tabControl1);

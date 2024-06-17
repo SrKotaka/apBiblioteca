@@ -1,4 +1,5 @@
-﻿using System;
+﻿using apBiblioteca_22129_22130.UI;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +17,7 @@ namespace apBiblioteca_22129_22130
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form());
+            Application.Run(new Form1());
         }
     }
 }
